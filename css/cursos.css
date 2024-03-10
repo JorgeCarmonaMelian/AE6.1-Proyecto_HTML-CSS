@@ -1,0 +1,53 @@
+.cuerpo{
+    display: flow-root;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.izquierda{
+    display: flow-root;
+    float: left;
+    width: 50%;
+}
+
+.cuerpo img{
+    width: 95%;
+}
+
+.cuerpo .derecha img{
+    float: right;
+}
+.cuerpo .izquierda img{
+    float: left;
+}
+
+.derecha{
+    float: right;
+    width: 50%;
+}
+
+.cuerpo h1{
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.cuerpo p{
+    margin-top: 2%;
+}
+
+.leerMas a{
+    margin-top: 3%;
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(205, 200, 190);
+    border-radius: 30px;
+    border: 2px solid rgb(205, 200, 190);
+    font-weight: bold;
+    padding: 1% 6% 1% 6%;
+}
+
+.leerMas a:hover{
+    color: rgb(205, 200, 190);
+    background-color: white;
+}

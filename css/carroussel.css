@@ -1,0 +1,17 @@
+#carroussel{
+    margin: 2%;
+    background-image: url(../images/Carroussel/Carroussel-1.webp);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 96%;
+    height: 65%;
+}
+
+#carroussel p{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+    font-size: 300%;
+    width: 5%;
+}

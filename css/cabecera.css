@@ -1,0 +1,11 @@
+.cabecera{
+    margin-top: 1.5%;
+    color: var(--gris);
+    font-style: italic;
+    margin-bottom: 1.5%;
+}
+
+.cabecera h1{
+    text-align: center;
+    margin: 2%;
+}

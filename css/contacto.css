@@ -1,0 +1,128 @@
+.cuerpo{
+    display: flow-root;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.izquierda{
+    float: left;
+    width: 50%;
+
+}
+
+.izquierda h1{
+    margin-bottom: 5%;
+}
+
+.izquierda > p:nth-child(2){
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.izquierda > p:nth-child(3){
+    margin-bottom: 5%;
+}
+
+.izquierda > p:nth-child(5){
+    margin-bottom: 5%;
+}
+
+.izquierda .redes img{
+    width: 5%;
+}
+
+.izquierda .redes img:nth-child(1){
+    position: relative;
+    left: 47.5%;
+}
+
+.izquierda .redes img:nth-child(2){
+    position: relative;
+    left: 35%;
+    top: 25px;
+}
+
+.izquierda .redes img:nth-child(3){
+    position: relative;
+    left: 25%;
+    top: 80px;
+}
+
+.izquierda .redes img:nth-child(4){
+    position: relative;
+    left: 39%;
+    top: 25px;
+}
+
+.izquierda .redes img:nth-child(5){
+    position: relative;
+    left: 37%;
+    top: 80px;
+}
+
+
+.izquierda .redes img:last-of-type{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.derecha{
+    float: right;
+    width: 40%;
+}
+
+form{
+    display: flow-root;
+    font-weight: bold;
+}
+
+form input[type="text"],select,textarea{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0%;
+    margin-bottom: 4%;
+    padding: 10px;
+    resize: none;
+}
+
+form input[type="checkbox"]{
+    margin-left: 5%;
+}
+
+form a{
+    color: rgb(97, 95, 255);
+}
+
+
+form select{
+    width: 100%;
+    height: 50px;
+}
+
+form textarea{
+    height: 100px;
+}
+
+.derecha{
+    display: flow-root;
+}
+
+.cuerpo .leerMas a{
+    font-weight: bold;
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 9px 8%;
+    background-color: var(--gris);
+    border-radius: 20px;
+    border: 2px solid var(--gris);
+}
+
+.cuerpo .leerMas a:hover{
+    color: var(--gris);
+    background-color: rgb(255, 255, 255);
+}

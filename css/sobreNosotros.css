@@ -1,0 +1,76 @@
+.cuerpo{
+    display: flow-root;
+}
+
+.izquierda{
+    display: flow-root;
+    float: left;
+    width: 45%;
+}
+
+.derecha{
+    float: right;
+    width: 55%;
+}
+
+.cuerpo #imagen{
+    float: right;
+    margin-right: 5%;
+    width: 380px;
+    height: 400px;
+    background-position: center;
+    background-size: 180% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/Tienda/Tienda-1.webp);
+}
+
+.cuerpo #informacion{
+    margin-top: 5%;
+    width: 80%;
+}
+
+.cuerpo #informacion b{
+    font-size: 19px;
+}
+
+#informacion > p:first-of-type{
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.logoNegro{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.logoNegro img{
+    float: left;
+    width: 40px;
+}
+
+.logoNegro p{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-left: 5px;
+    color: var(--naranja)
+}
+
+.logoNegro span{
+    color: rgb(29, 29, 29);
+}
+
+.redes{
+    margin-top: 15px;
+    width: 200px;
+    display: flow-root;
+}
+
+.redes img{
+    float: left;
+    width: 13%;
+    margin-left: 5%;
+}

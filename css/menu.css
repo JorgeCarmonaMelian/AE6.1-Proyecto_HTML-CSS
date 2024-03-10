@@ -1,0 +1,48 @@
+.menu{
+    position: sticky;
+    top: 0px;
+    background-color: var(--gris);
+    display: flow-root;
+    z-index: 999;
+}
+
+.logo{
+    /*background-color: rgb(255, 0, 0);*/
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+}
+.logo img{
+    float: left;
+    width: 38px;
+    margin-top: 1%
+}
+.logo p{
+    margin-left: 3%;
+    font-size: 200%;
+    margin-top: 2%;
+    float: left;
+    color: var(--naranja)
+}
+.logo p span{
+    color: white;
+}
+
+.controles{
+    /*background-color: rgb(0, 17, 255);*/
+    float: right;
+    width: 60%;
+    margin-top: 16px;
+    font-size: 120%;
+    margin-top: 0.9%;
+}
+
+.controles a{
+    color: white;
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+.controles a:hover{
+    color: var(--naranja);
+}
